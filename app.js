@@ -33,7 +33,8 @@ const lego = [
 lego.forEach((lego) => console.log(lego.name))
 
 
-lego.forEach((lego) => console.log(lego.set_appeared_in) )
+
+legoset_appeared_in.forEach((set) => console.log(set))
 
 
 
