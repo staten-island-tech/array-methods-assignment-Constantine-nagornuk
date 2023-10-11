@@ -28,14 +28,24 @@ const lego = [
         set_appeared_in: ['90 ','34' , '134' ,'275']
     },
 
+    {
+        name: "Brick5",
+        size: "6x4",
+        Color: "Red",
+        set_appeared_in: ['90 ','34' , '174' ,'275']
+    }
 ]
 
-lego.forEach((lego) => console.log(lego.name))
+console.log(lego.forEach((lego) => console.log(lego.name)))
 
 
 
-legoset_appeared_in.forEach((set) => console.log(set))
 
 
+
+
+
+const red = lego.filter((lego) => lego.Color)
+console.log(red)
 
 
