@@ -36,16 +36,18 @@ const lego = [
     }
 ]
 
-console.log(lego.forEach((lego) => console.log(lego.name)))
+lego.forEach((lego) => console.log(lego.name))
 
-
-
-
-
-
-
+lego.forEach((lego) => console.log(lego.set_appeared_in))
 
 const red = lego.filter((lego) => lego.Color)
-console.log(red)
+console.log(red);
+
+
+
+
+
+
+
 
 
