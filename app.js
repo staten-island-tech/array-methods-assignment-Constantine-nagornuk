@@ -38,12 +38,12 @@ const lego = [
 
 lego.forEach((lego) => console.log(lego.name))
 
-lego.forEach((lego) => console.log(lego.set_appeared_in))
-
-const red = lego.filter((lego) => lego.Color)
-console.log(red);
-
-
+lego.forEach((brick, index) => {
+    brick.set_appeared_in.forEach((set, setIndex) => {
+      console.log(`line ${index + 1}: ${set}`);
+    });
+  });
+  
 
 
 
